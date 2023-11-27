@@ -1,0 +1,759 @@
+fileFormatVersion: 2
+guid: 224d26a79b3f0594a9b904cc5b8d75e7
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: dcee397a05f6c4a218ecd88363757ff2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 3ec456d6671bc4b0c8680cd971eaa97d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: e82bdd0126d1d4f77b6069520a5db5cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 16 - Default
+    second: {fileID: 2100000, guid: cb2455461c92b41d88a58c9025b7a8b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminum_matted
+    second: {fileID: 2100000, guid: 4e1187b9a4e1740a38aee9d203296953, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_plastic
+    second: {fileID: 2100000, guid: 183a55158e7d24a55bcfb49a56833f62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_Paint_Standard
+    second: {fileID: 2100000, guid: cd9b88176e5b94c7590357acc75b707d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: f4962a8ab1a42488cade2cc1494ac265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: e8e484498c0844a90a9fbcb8df121774, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_blue
+    second: {fileID: 2100000, guid: 1a766396e195b4d28a95417ecc4e7250, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MENTO_black_plastic
+    second: {fileID: 2100000, guid: 91ef09c5636a048e0980fd32f13bf3cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #59
+    second: {fileID: 2100000, guid: 867d8866902944cb5b5d88a90aee1035, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #60
+    second: {fileID: 2100000, guid: 3fd1a10cf160a4bd0b93fe1018c71b34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #61
+    second: {fileID: 2100000, guid: e3c5da93f7f4241c2a2dc911924e8794, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #63
+    second: {fileID: 2100000, guid: 7739ac044d753417c993955689662530, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #65
+    second: {fileID: 2100000, guid: 4d0effdb721974a7ea269ce38456e64a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #66
+    second: {fileID: 2100000, guid: 1a4b27b33854c4633adb9d0f3432cc8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mento_Chrome
+    second: {fileID: 2100000, guid: 4339a58a763824351b01e4d695a026f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Shiny
+    second: {fileID: 2100000, guid: 169968a448ea74cd4aba0e54730a5fd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Translucent_Red
+    second: {fileID: 2100000, guid: 4c2aad04fcf334a67a321184c4fbdbf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Translucent_White
+    second: {fileID: 2100000, guid: c98401f1f4b5d4cf9892077f92a2c396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Translucent_sanitizer
+    second: {fileID: 2100000, guid: 28cfa04dfa4d740f099ea62a2d783ec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porcelain
+    second: {fileID: 2100000, guid: 609cfda35493747dd82e927c52fe50d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_plastic
+    second: {fileID: 2100000, guid: 693f40012c03640c69c842d346566f81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_clean
+    second: {fileID: 2100000, guid: fddbb0e6ac9fb4fad929672d7b9188ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VEntilator Display
+    second: {fileID: 2100000, guid: dd2d88f1176a74f428fd1df2b4258ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beige cover
+    second: {fileID: 2100000, guid: 5d856eb13149c478cb3dc8813d5095cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beigeeather2wheelchair
+    second: {fileID: 2100000, guid: 08cc2f51babb44839b95ba47912ff13e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: biohazard
+    second: {fileID: 2100000, guid: c8e9191ba84e64a04842287afe624486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bluePlasticVentilator
+    second: {fileID: 2100000, guid: 300fd14ed77d74155abe37a453bd93fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue_hospital_bed
+    second: {fileID: 2100000, guid: c1d40fba307424172a04d3bb6806056c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brushed metal
+    second: {fileID: 2100000, guid: f6270e397822e4da19bddc9a107313ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brushed metal surgical light
+    second: {fileID: 2100000, guid: 7f67818ae45a744f38d3f5aca12c1284, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brushed metal towel warmer
+    second: {fileID: 2100000, guid: 2f6430be0c062426099164d462fbaf88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling
+    second: {fileID: 2100000, guid: 2e51cbe1c6fdd429bb4b0e900d5a41b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome surgical light
+    second: {fileID: 2100000, guid: efc1e161900d044c08ddaba3f34e53e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50_beige
+    second: {fileID: 2100000, guid: 2edca88195115472ea01bad727b43b10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50_buttons
+    second: {fileID: 2100000, guid: 7d7dba399a0e3432cbc11ebb2a3a1228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50_buttons2
+    second: {fileID: 2100000, guid: 4efc4db33100e4b9c86411f61a570aad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50_dark_gray
+    second: {fileID: 2100000, guid: d2fa3eeb3494143c5bc7a9656626edae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50_gray
+    second: {fileID: 2100000, guid: 1609dd5325a0c4d9186f27604caa3a6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50_metal
+    second: {fileID: 2100000, guid: 5f90704fd751c47d8981b8523d274e25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50_white
+    second: {fileID: 2100000, guid: b196dab1f6a844d308eb981b241b5491, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50_white2
+    second: {fileID: 2100000, guid: 25f2006391845473f90339cb5038fbb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50keyboard1
+    second: {fileID: 2100000, guid: dc0c14570c63843b4a66acc2b483d84e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50led
+    second: {fileID: 2100000, guid: 9ce89cd6b88c14d6eb982778ff834994, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cx50screen
+    second: {fileID: 2100000, guid: 23a5ea1f3ceaa4230a5c9712492f637e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark gray mammomat
+    second: {fileID: 2100000, guid: cb26fb1de0e7a4c928c440b5636c44a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: darkgray plastic
+    second: {fileID: 2100000, guid: caaf5a803c9fa4ff385cde457d2dc1fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dispenser button
+    second: {fileID: 2100000, guid: efa2c2768194042eca7032caa22eb98a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dispenser case
+    second: {fileID: 2100000, guid: c4eef9ee6ee424ba4a1f045b08982ce4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctors stool_black plastic
+    second: {fileID: 2100000, guid: 2d4ecf2130542444aa4d7f13f3ad3e7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctors stool_leather
+    second: {fileID: 2100000, guid: f5e8b2d403212474293425f7e4fc2de9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doctors stool_metal
+    second: {fileID: 2100000, guid: 106810a530ca54e5aa2108a242725233, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: electronic clock
+    second: {fileID: 2100000, guid: 72fa6771262724a7c9c951647e8689c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2100000, guid: f0adbc329ceb74567b2dec6aea7d05e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor2
+    second: {fileID: 2100000, guid: 44630efc70a6d4113a2e3aaa56b21bc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: greenliquid
+    second: {fileID: 2100000, guid: 432907a8c7ffa42a99e6bb44ed39cb07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hospital bed matresse
+    second: {fileID: 2100000, guid: c3ab3177605064fb1aca64fff496648d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hospital_bed_ metal1
+    second: {fileID: 2100000, guid: f29718b30a77f44ae99ac8e9235f64ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: incubator black plastic
+    second: {fileID: 2100000, guid: 645d54960d4fe4d8294ef84a0520517d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: incubator metal
+    second: {fileID: 2100000, guid: a6834ef3784d1408a9b9f2115828cf97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: infusion plastic
+    second: {fileID: 2100000, guid: 6466aecb38d9541d6b0a68d11a667d89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: infusion pole metal
+    second: {fileID: 2100000, guid: 2b8687f1965d54e0ebd01e6fc6b557db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: keyboard white
+    second: {fileID: 2100000, guid: 27f5934666aab4adfbecb0a0c7d30011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: keys
+    second: {fileID: 2100000, guid: 88c4a18554f0c406d8e54a8e64ed73af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamp shade
+    second: {fileID: 2100000, guid: 27c51a8eca4cd42a08cef31586e773e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leather_2
+    second: {fileID: 2100000, guid: d7c01c3e43e7644c5abe986d99aa0abd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light bulb
+    second: {fileID: 2100000, guid: cdb0e3dbd4c8e47849a8e1a48167f656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light gray mammomat
+    second: {fileID: 2100000, guid: a1a36485dc9dc48e39d920b6166d6ff8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: manual wheelchair chrome
+    second: {fileID: 2100000, guid: d4be1ed3ef07c436d81cd6ef777b53ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: manual wheelchair_blackmetal
+    second: {fileID: 2100000, guid: c0898932d08d747a18bc1f7fe892c8f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medical cabinet frosted glass_
+    second: {fileID: 2100000, guid: b6fa6b5f0d63544968f98a5e799332f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medical cabinet glass sdoor
+    second: {fileID: 2100000, guid: d278ab3b2d5734b18b12c1dee526cb18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medical device 02
+    second: {fileID: 2100000, guid: e4f37e8d1db5144f9b3ed7da2db3512e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medical device 03
+    second: {fileID: 2100000, guid: 5d8447587704f4b6182627502df7f5f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medical device1
+    second: {fileID: 2100000, guid: 3c714a369eceb43c8aaa82f891db043e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medical trolley glass
+    second: {fileID: 2100000, guid: bf41670e6787d4218ac13971ad421afb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medicine label 02
+    second: {fileID: 2100000, guid: 0449dafa0b07742068a365af85709b4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medicine label 03
+    second: {fileID: 2100000, guid: c39d7c873e9cc4858b3fe384676e1fda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medicine label01
+    second: {fileID: 2100000, guid: 30de950930371408db7036464be8a481, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_operation table
+    second: {fileID: 2100000, guid: 3467563fb072e41eb9162496f150c174, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mirror_lamp
+    second: {fileID: 2100000, guid: 8cd8b2a82cbd34816b80ebc499b005e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monitor case
+    second: {fileID: 2100000, guid: 9a55df1bb5f16476797667a731dd8baf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monitor screen
+    second: {fileID: 2100000, guid: 8a2bf5ce044e5445a99693a1a7f7010a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon
+    second: {fileID: 2100000, guid: 2650142e6bf8b4a0289c7867a142dc79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nets
+    second: {fileID: 2100000, guid: c9223222e587c408a933ff49fdde1720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: off white mammomat
+    second: {fileID: 2100000, guid: 904751de1107d4d5d99f1a419529fdba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: offscreen
+    second: {fileID: 2100000, guid: 9bb87b9bbb2f548e1b057f1fec06f7d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orangeplasticinfusionpole
+    second: {fileID: 2100000, guid: 846a7669415e745eb8f66dc202aae7d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oxygen-vacuum-air
+    second: {fileID: 2100000, guid: e7078261219e4416981f3684f29ef0e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paper
+    second: {fileID: 2100000, guid: 97b2fd118e1c5438bbc33a5e63e21c4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paper towel
+    second: {fileID: 2100000, guid: 93680f070800b453e8fc2b52cd824a4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pelco glass
+    second: {fileID: 2100000, guid: 1d74b4029c9aa4969912331f387bd38b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pillow
+    second: {fileID: 2100000, guid: 9b37d46206bb6424d8e65e785f951954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic bottle cap
+    second: {fileID: 2100000, guid: fbe9c5ba409754fbaa5d8d3cc47d5581, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_operation table
+    second: {fileID: 2100000, guid: f72d13c1dbe27493394cecdcddf0ac47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: recipient2
+    second: {fileID: 2100000, guid: 2c58d4182da1e4f34931d02142ad005a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red plastic
+    second: {fileID: 2100000, guid: 492a8596258534a778ad00250383070b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: samsung q7f 55 screen edge
+    second: {fileID: 2100000, guid: 71740f7e5df504f6a8f4e9304a195e80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: side panel controls_head_1
+    second: {fileID: 2100000, guid: def4181190aae41768dc71e273385122, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: side panel controls_type2
+    second: {fileID: 2100000, guid: da40833710fad498a90a35a121cad9df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sill
+    second: {fileID: 2100000, guid: 5c8b09f2b278e40fa90fcb664e079912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surgical blue plastic
+    second: {fileID: 2100000, guid: 5b237780d12594f3ba2370cf40f98cc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surgical light black plastic
+    second: {fileID: 2100000, guid: 860ae25b44e8f42b1a5ecd194ccb2749, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surgical red
+    second: {fileID: 2100000, guid: 3d435d0572b464eb6941598c4cefce29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surgical white
+    second: {fileID: 2100000, guid: a11d59e9ad4c047cd9bf4615337573a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surgical yellow
+    second: {fileID: 2100000, guid: 9a4aa2b671e70418191b1bc1298ccc2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: towels
+    second: {fileID: 2100000, guid: 27a779e61aa974bcb8263aa04e34b664, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ventilator controls2
+    second: {fileID: 2100000, guid: 4daf0f310ac2b4eedb2d3b53fd6f2b9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 02 - Default
+    second: {fileID: 2100000, guid: e1d42ed8709264f7991c5d7c6df39807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 09 - Default
+    second: {fileID: 2100000, guid: 8b65f006b605e4d5b81b24dd2e37e2ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray 4124
+    second: {fileID: 2100000, guid: 53b458c3f77cf4872b6d90c4052a7046, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray Material #93
+    second: {fileID: 2100000, guid: d54d58be9e2ca49f485dd6cbde92eb47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray birou
+    second: {fileID: 2100000, guid: e392ac01cf6fd4ba39580b3f5e431589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray light gray paint cabinet
+    second: {fileID: 2100000, guid: 90a7c7e1b4da84ddf9f6bf8cfa33f505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray medical cabinet glass shelf
+    second: {fileID: 2100000, guid: 2f6b22b4dff334a469fff73eb59e0adf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray medicine label 02
+    second: {fileID: 2100000, guid: 01d0ad18ece53406a9246c3445d8a5ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray medicine label 03
+    second: {fileID: 2100000, guid: e82cb47487bbb4e00a67ca9cda29af2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray medicine label01
+    second: {fileID: 2100000, guid: 9c4ca65691348481bad10e5a942e7f61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray plastic
+    second: {fileID: 2100000, guid: e1385e0e27eab4464ac64182531a15fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vray warmer timer
+    second: {fileID: 2100000, guid: c3ef253d0685444b780fbb777d13773c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls
+    second: {fileID: 2100000, guid: b632b9f36f77b44388033212f210cbd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: warmer controls
+    second: {fileID: 2100000, guid: 9b10b77085bd54ba092097aa342fcb56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white metal bedsidetable
+    second: {fileID: 2100000, guid: 49b7453253aa04d05bdaee0595fa8903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_ metal_hospital_bed
+    second: {fileID: 2100000, guid: 111730247ad4646169c356bb8dab7637, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_ metal_incubator
+    second: {fileID: 2100000, guid: 6d3d34b049caf443a8a5d7bc0492d6d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_ plastic_hospital_bed
+    second: {fileID: 2100000, guid: 2a03fd345ca7f451e82895f6b9ee8680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_ plastic_monitor
+    second: {fileID: 2100000, guid: bb1ad6983012d42aeb553cd27529113a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window glass
+    second: {fileID: 2100000, guid: 930178c72fc534031abfdcbcf91bc7c8, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
