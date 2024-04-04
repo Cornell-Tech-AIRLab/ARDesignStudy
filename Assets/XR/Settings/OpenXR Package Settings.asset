@@ -254,6 +254,7 @@ MonoBehaviour:
   - {fileID: 6913476462718727714}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_symmetricProjection: 0
 --- !u!114 &-4744080295545829419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,6 +358,7 @@ MonoBehaviour:
   - {fileID: -90690545841345745}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_symmetricProjection: 0
 --- !u!114 &-3609247132307241182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,6 +518,10 @@ MonoBehaviour:
     manifestName: cambria
     enabled: 1
   forceRemoveInternetPermission: 1
+  symmetricProjection: 0
+  systemSplashScreen: {fileID: 0}
+  lateLatchingMode: 0
+  lateLatchingDebug: 0
 --- !u!114 &-1789664849147982158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -797,11 +803,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f0ebc320a151d3408ea1e9fce54d40e, type: 3}
   m_Name: OpenXR Package Settings
   m_EditorClassIdentifier: 
-  Keys: 01000000070000000e000000
+  Keys: 01000000070000000e0000000d000000
   Values:
   - {fileID: -3869965490982757418}
   - {fileID: 3075497274522108167}
   - {fileID: -4996685505592683481}
+  - {fileID: 3519869745030900859}
 --- !u!114 &289327626529562968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -945,6 +952,7 @@ MonoBehaviour:
   - {fileID: 3250910992481202187}
   m_renderMode: 1
   m_depthSubmissionMode: 0
+  m_symmetricProjection: 0
 --- !u!114 &3250910992481202187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -989,6 +997,22 @@ MonoBehaviour:
   required: 0
   cacheSize: 1048576
   perThreadCacheSize: 51200
+--- !u!114 &3519869745030900859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
+  m_Name: WebGL
+  m_EditorClassIdentifier: 
+  features: []
+  m_renderMode: 1
+  m_depthSubmissionMode: 0
+  m_symmetricProjection: 0
 --- !u!114 &3721194414914999334
 MonoBehaviour:
   m_ObjectHideFlags: 0
